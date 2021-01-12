@@ -1,0 +1,15 @@
+{:deps true
+ :nrepl {:port 8888}
+ :builds {:roam-cljs-example
+          {:target :browser
+           :output-dir "resources/public/js"
+           :asset-path "js"
+           :compiler-options {:infer-externs :auto
+                              :output-feature-set :es8}
+           :http {:port 9630}
+           :devtools {:http-root "resources/public"
+                      :http-port 8081
+                      :loader-mode :eval
+                      :use-document-host false}
+           :modules {:roam-cljs-example {:entries [roam-cljs-example.core]
+                                         :init-fn roam-cljs-example.core/init}}}}}

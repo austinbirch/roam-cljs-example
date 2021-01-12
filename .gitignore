@@ -1,0 +1,14 @@
+.DS_Store
+.gitignore.swp
+.cpcache
+.shadow-cljs
+
+out/chrome-ext/out
+out/chrome-ext/manifest.json
+
+resources/public/js
+
+node_modules
+.idea
+.shadow-cljs
+roam-cljs.iml
