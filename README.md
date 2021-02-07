@@ -15,7 +15,7 @@ s.type = "text/javascript";
 document.getElementsByTagName("head")[0].appendChild(s);
 ```
 
-(Note that you may have to hide the left sidebar in Roam for the rendered control to be visible: "Ctrl-\")
+(Note that you may have to hide the left sidebar in Roam for the rendered control to be visible: "Ctrl-\\")
 
 You can connect to the shadow=cljs REPL session on port 9000 -- you start the ClojureScript REPL session by:
 
